@@ -10,18 +10,17 @@ public class MountainPeak {
     static int peakIndex(int[] arr){
         int start = 0;
         int end = arr.length-1;
-        while(start < end){
-            int mid = start + (end-start)/2;
-            if(arr[mid] > arr[mid+1]){
+        while(start < end) {
+            int mid = start + (end - start) / 2;
+            if (arr[mid] > arr[mid + 1]) {
                 // we are in dec part of array
                 // maybe answer but look at left side
                 // this is why end != end-1;
                 end = mid;
-            }
-            else{
+            } else {
                 // we are asc part of array
                 // we know that mid+1 > mid
-                start = mid+1;
+                start = mid + 1;
             }
         }
         // in last end == start

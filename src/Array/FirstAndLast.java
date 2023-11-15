@@ -5,7 +5,7 @@ import java.util.Arrays;
 //https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/
 public class FirstAndLast {
     public static void main(String[] args) {
-        int[] arr = {5, 5, 5, 7, 7, 8, 8, 10};
+        int[] arr = { 5, 5, 5, 7, 7, 8, 8, 10 };
         int target = 5;
         int[] result = new int[2];
         result[0] = findIndex(arr, target, true);
@@ -35,6 +35,5 @@ public class FirstAndLast {
         }
         return ans;
     }
-
 
 }
