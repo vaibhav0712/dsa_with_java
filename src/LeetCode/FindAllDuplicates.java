@@ -3,7 +3,7 @@ import java.util.Arrays;
 import java.util.ArrayList;
 
 // https://leetcode.com/problems/find-all-duplicates-in-an-array/description/
-public class FindDuplicates {
+public class FindAllDuplicates {
     public static void main(String[] args) {
         int[] arr = {4,3,2,7,8,2,3,1};
         System.out.println("Before: "+Arrays.toString(arr));
