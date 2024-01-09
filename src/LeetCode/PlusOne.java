@@ -8,6 +8,7 @@ import java.util.Arrays;
 public class PlusOne {
     public static void main(String[] args) {
         int[] arr = {9,9,9};
+        int[] arr1 = {9,0,9};
         int[] ans = solution(arr);
         System.out.println(Arrays.toString(ans));
     }
