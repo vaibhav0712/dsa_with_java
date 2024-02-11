@@ -5,8 +5,19 @@ public class Main{
         int [] arr = {10,5,78,1,2,6,9,5,0,4}; // 8 element in array
 //        bubbleSort(arr);
 //        selectionSort(arr);
-        insertionSort(arr);
+//        insertionSort(arr);
         System.out.println(Arrays.toString(arr));
+
+        int n = 100111001;
+        int counter = 0;
+        while(n != 0){
+            if((n & 1) != 0){
+                counter++;
+            }
+            n = n >> 1;
+        }
+        System.out.println(counter);
+
     }
     static void bubbleSort(int []arr){
         // if n element outer loop run only n-1
