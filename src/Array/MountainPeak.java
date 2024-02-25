@@ -15,7 +15,7 @@ public class MountainPeak {
             if (arr[mid] > arr[mid + 1]) {
                 // we are in dec part of array
                 // maybe answer but look at left side
-                // this is why end != end-1;
+                // this is why end != mid-1;
                 end = mid;
             } else {
                 // we are asc part of array
@@ -24,6 +24,6 @@ public class MountainPeak {
             }
         }
         // in last end == start
-        return start;
+        return arr[start];
     }
 }

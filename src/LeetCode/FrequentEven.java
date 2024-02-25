@@ -6,7 +6,6 @@ public class FrequentEven {
     public static void main(String[] args) {
         HashMap<Integer,Integer> evenCount = new HashMap<>();
         int[] arr = {8154,9139,8194,3346,5450,9190,133,8239,4606,8671,8412,6290};
-
         for(int i:arr){
             if((i&1)==0){
                 if(evenCount.containsKey(i)){
