@@ -16,7 +16,7 @@ public class Heap {
         heap.add(25);
         heap.add(20);
         System.out.println("heap : " + heap);
-        deleteElement(heap);
+//        deleteElement(heap);
         System.out.println("heap after delete : " + heap);
 //        insertElement(heap,heap.size(),50);
 //        System.out.println("heap after insert : "+heap);
